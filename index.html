@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision/vision_bundle.mjs" crossorigin="anonymous" defer></script>
+    <script type="module" src="main.js" defer></script>
+
+    <title>Gesture Captcha</title>
+</head>
+
+<body>
+    <h1 id="title">Gesture Captcha</h1>
+
+    <main>
+        <section style="display: flex; justify-content: end; align-items: end;">
+            <video id="webcam" autoplay>
+                
+            </video>
+            
+            <div id="indicator">
+            </div>
+        </section>
+
+        <section id="bottom">
+            <h3>match the shown gestures</h3>
+            <button id="continue" disabled>continue</button>
+        </section>
+    </main>
+</body>
+
+</html>
