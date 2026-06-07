@@ -121,7 +121,7 @@ function startWebcam() {
     });
 }
 
-// 3. The Main Prediction Loop
+// Prediction Loop
 async function predictWebcam() {
     // Ensure canvas matches video dimensions
     // canvasElement.style.width = video.videoWidth + "px";
