@@ -55,6 +55,7 @@ h3 {
 
 #continue {
     box-sizing: content-box;
+    background-color: #3131ff;
     height: 20px;
     padding: 7px;
     border: 0;
